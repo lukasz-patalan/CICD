@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   AppCenter-Config.plist
+   CICDTest
+
+   Created by Łukasz Patalan on 30/03/2022.
+   Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+  <dict>
+     <key>AppSecret</key>
+     <string>f7c706c9-afc5-4d20-9d15-95948eaabe28</string>
+     </dict>
+</plist>

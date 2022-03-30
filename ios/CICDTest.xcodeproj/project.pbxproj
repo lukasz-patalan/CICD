@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		31CFC8E406B688F6C153D4FB /* libPods-CICDTest-CICDTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DB7EB1AE27B8BD816F9DDD /* libPods-CICDTest-CICDTestTests.a */; };
+		5825232A27F470BF0033FE9F /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5825232927F470BF0033FE9F /* AppCenter-Config.plist */; };
 		701FF4676F1E612FBBF83776 /* libPods-CICDTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB91F51C173BB22C07E1E0D4 /* libPods-CICDTest.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CICDTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CICDTest/main.m; sourceTree = "<group>"; };
 		420D14B15D103375DF08C7FF /* Pods-CICDTest-CICDTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTest-CICDTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CICDTest-CICDTestTests/Pods-CICDTest-CICDTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5825232927F470BF0033FE9F /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CICDTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6A5F4B471D4792FC9E8DB9D /* Pods-CICDTest-CICDTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDTest-CICDTestTests.release.xcconfig"; path = "Target Support Files/Pods-CICDTest-CICDTestTests/Pods-CICDTest-CICDTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6DB7EB1AE27B8BD816F9DDD /* libPods-CICDTest-CICDTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CICDTest-CICDTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5825232927F470BF0033FE9F /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* CICDTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CICDTestTests */,
@@ -145,7 +148,6 @@
 				420D14B15D103375DF08C7FF /* Pods-CICDTest-CICDTestTests.debug.xcconfig */,
 				A6A5F4B471D4792FC9E8DB9D /* Pods-CICDTest-CICDTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5825232A27F470BF0033FE9F /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
